@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://db.onlinewebfonts.com/c/08e020de1811ec4489f82d1247a42c09?family=Helvetica+Now+Text');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 530px;
+    padding-top: 25px;
+    background-color: white;
+    max-width: 480px;
+    font-family: 'Helvetica Now Text', Helvetica, Arial, sans-serif;
+
+}
+
+/* Cabeçalho */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nike {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+/* Div - Texto Início */
+h2 {
+    font-weight: 20;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-weight: 16;
+    font-size: 16px;
+}
+
+/* Div - Form-Email */
+input[type="email"] {
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 8px;
+    padding: 12px;
+    width: 440px;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    height: 30px;
+}
+
+/* Div - Texto-Final */
+h4 {
+    font-weight: 16;
+    padding-top: 23px;
+    color: rgb(117, 117, 117);
+    line-height: 22px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 125px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 340px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Links */
+a.link {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    margin-left: 7px;
+    padding-left: 3px;
+}
+
+a.link2 {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    margin-left: 7px;
+    margin: 0px;
+    padding: 0px;
+}
