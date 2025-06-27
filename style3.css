@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@import url('https://db.onlinewebfonts.com/c/08e020de1811ec4489f82d1247a42c09?family=Helvetica+Now+Text');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Helvetica Now Text', Helvetica, Arial, sans-serif;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #F7F7F7;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+img.jordan-snkrs {
+    display: flex;
+    gap: 10px;
+    width: 130px;
+    padding-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+    padding-left: 735px;
+}
+
+.nav-links a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+/* Cabeçalho 2 */
+
+.cabecalho-2 {
+    background-color: white;
+    display: flex;
+    height: 80px;
+}
+
+.nav-link2 {
+    display: flex;
+    gap: 28px;
+    padding-left: 375px;
+}
+
+.nav-link2 a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    padding-top: 28px;
+}
+
+input[type="text"] {
+    background-color: #F7F7F7;
+    border: 1px;
+    border-radius: 40px;
+    width: 150px;
+    margin-top: 18px;
+    margin-left: 155px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+img.logo-nike {
+    height: 75px;
+    padding-left: 30px;
+}
+
+
+img.fav {
+    padding-left: 15px;
+    padding-top: 17px;
+    height: 71%;
+}
+
+img.sac {
+    padding-left: 5px;
+    padding-top: 15px;
+    height: 71%;
+}
+
+/* Cabeçalho 3*/
+
+.cabecalho-3 {
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    height: 55px;
+}
+
+.seta-esq {
+    cursor: pointer;
+    padding-left: 260px;
+    max-width: 60%;
+    height: 60px;
+}
+
+.seta-dir {
+    cursor: pointer;
+    padding-right: 280px;
+    max-width: 60%;
+    height: 60px;
+}
+
+.conteudo-central {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone-nike {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.icone-nike img {
+    width: 16px;
+    height: auto;
+}
+
+.texto-app {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.texto-app a {
+    color: #000;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+/* Carrosel - Corinthians */
+
+.container {
+    justify-content: center;
+    display: flex;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 1350px;
+    cursor: pointer;
+}
+
+/* Comercial - Phantom 6 */
+
+.comercial {
+    display: flex;
+    max-width: 1350px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+
+.comercial h1 {
+    font-weight: 800;
+    font-size: 55px;
+    margin-top: 10px;
+}
+
+.comercial p {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 155px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 25px;
+    height: 50px;
+}
+
+/* Sessão Tênis */
+
+.container-tenis {
+    display: flex;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.tenis {
+    max-width: 330px;
+    width: 330px;
+    height: auto;
+    gap: 1px;
+}
+
+p.icones-nike {
+    font-size: 30px;
+    padding-left: 75px;
+    padding-bottom: 20px;
+}
