@@ -215,14 +215,70 @@ button {
 }
 
 .tenis {
-    max-width: 330px;
-    width: 330px;
+    max-width: 360px;
+    width: 334px;
     height: auto;
     gap: 1px;
 }
 
 p.icones-nike {
     font-size: 30px;
-    padding-left: 75px;
+    padding-left: 85px;
     padding-bottom: 20px;
+}
+
+/* Produtos mais buscados */
+
+p.produtos-mais {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-left: 85px;
+}
+
+.produtos-mais-buscados {
+    margin: 0 auto;
+    max-width: 1350px;
+    padding-top: 15px;
+}
+
+.opcoes {
+    display: flex;
+    gap: 50px;
+}
+
+a.opc {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    padding-left: 5px;
+
+}
+
+.opcoes-2 {
+    display: flex;
+    gap: 225px;
+}
+
+a.opc2 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.container-sessoes {
+    display: flex;
+    gap: 200px;
+}
+
+.sessao {
+    display: flex;
+    flex-direction: column;
+}
+
+a.link-sessao {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    padding-top: 20px;
 }
