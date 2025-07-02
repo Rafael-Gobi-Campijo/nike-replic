@@ -229,56 +229,56 @@ p.icones-nike {
 
 /* Produtos mais buscados */
 
-p.produtos-mais {
-    font-size: 24px;
-    font-weight: 500;
-    padding-top: 50px;
-    padding-left: 85px;
+h3 {
+    font-weight: 300;
+    font-size: 25px;
+    padding-left: 84px;
+    padding-top: 35px;
 }
 
-.produtos-mais-buscados {
-    margin: 0 auto;
+nav.sessao {
     max-width: 1350px;
-    padding-top: 15px;
-}
-
-.opcoes {
+    margin: 0 auto;
+    margin-top: 15px;
     display: flex;
-    gap: 50px;
+    gap: 65px;
+    padding-top: 5px;
 }
 
-a.opc {
-    text-decoration: none;
-    color: rgb(117, 117, 117);
+span {
     font-size: 20px;
-    padding-left: 5px;
-
+    cursor: pointer;
+    color: #777777;
 }
 
-.opcoes-2 {
-    display: flex;
-    gap: 225px;
-}
-
-a.opc2 {
-    text-decoration: none;
+span.principal {
     color: black;
-    font-size: 20px;
-    padding-top: 25px;
 }
 
-.container-sessoes {
+.container-sessao {
     display: flex;
-    gap: 200px;
+    flex-wrap: wrap;
 }
 
-.sessao {
-    display: flex;
-    flex-direction: column;
+.column {
+    flex: 1;
 }
 
-a.link-sessao {
-    text-decoration: none;
-    color: rgb(117, 117, 117);
-    padding-top: 20px;
+.column h3 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.column ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.column li {
+    font-size: 16px;
+    color: #666;
+    margin: 6px 0;
+    cursor: pointer;
+    padding-left: 85px;
 }
