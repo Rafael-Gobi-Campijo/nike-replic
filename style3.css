@@ -20,6 +20,7 @@ header {
     height: 40px;
     display: flex;
     align-items: center;
+    position: sticky;
 }
 
 img.jordan-snkrs {
@@ -32,7 +33,7 @@ img.jordan-snkrs {
 .nav-links {
     display: flex;
     gap: 28px;
-    padding-left: 735px;
+    padding-left: 795px;
 }
 
 .nav-links a {
@@ -45,31 +46,30 @@ img.jordan-snkrs {
 /* Cabeçalho 2 */
 
 .cabecalho-2 {
-    background-color: white;
-    display: flex;
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-link2 {
     display: flex;
     gap: 28px;
-    padding-left: 375px;
+    padding-left: 135px;
 }
 
 .nav-link2 a {
     font-size: 16px;
     color: black;
     text-decoration: none;
-    padding-top: 28px;
 }
 
 input[type="text"] {
     background-color: #F7F7F7;
     border: 1px;
     border-radius: 40px;
-    width: 180px;
+    width: 170px;
     height: auto;
-    margin-top: 18px;
     margin-left: 185px;
     padding: 12px;
     font-size: 14px;
@@ -77,20 +77,18 @@ input[type="text"] {
 
 img.logo-nike {
     height: 75px;
-    padding-left: 30px;
+    padding-right: 250px;
 }
 
 
 img.fav {
     padding-left: 15px;
-    padding-top: 15px;
-    height: 71%;
+    height: 50%;
 }
 
 img.sac {
     padding-left: 5px;
-    padding-top: 15px;
-    height: 71%;
+    height: 50%;
 }
 
 /* Cabeçalho 3*/
@@ -252,11 +250,16 @@ nav.sessao {
 span {
     font-size: 20px;
     cursor: pointer;
-    color: #777777;
+    color: #5b5b5b;
+}
+
+span:hover {
+    color: #898989;
 }
 
 span.principal {
     color: black;
+    text-decoration: underline;
 }
 
 .container-sessao {
@@ -283,6 +286,10 @@ span.principal {
 .column a {
     text-decoration: none;
     color: #777777;
+}
+
+.column a:hover {
+    color: black;
 }
 
 .mostrar-mais {
@@ -335,6 +342,10 @@ span.principal {
     color: #777777;
 }
 
+.column-2 a:hover {
+    color: black;
+}
+
 .mostrar-mais-2 {
     text-align: center;
     display: flex;
@@ -345,5 +356,5 @@ span.principal {
 .mostrar-mais-2 a {
     text-align: center;
     color: black;
-    margin-top: -50px;
+    margin-top: -55px;
 }
