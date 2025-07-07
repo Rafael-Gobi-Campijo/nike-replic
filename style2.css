@@ -182,17 +182,22 @@ a.link {
 
 button {
     background-color: black;
-    color: white;
-    width: 170px;
     border-radius: 50px;
     border: none;
     cursor: pointer;
+    width: 170px;
+    height: 50px;
+    font-weight: 600;
     margin-left: 290px;
-    font-weight: 550;
-    font-size: 16px;
     margin-bottom: 60px;
 }
 
 button:hover {
     background-color: #7b7b7b;
+}
+
+a.botao {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
 }

@@ -358,3 +358,63 @@ span.principal {
     color: black;
     margin-top: -55px;
 }
+
+/* Rodapé */
+
+footer {
+    background-color: #111111;
+    padding: 30px 120px;
+    color: white;
+}
+
+.container-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.box {
+    width: 180px;
+}
+
+.box-extras {
+    width: 280px;
+}
+
+.box,
+.box-extras {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box h3,
+.box-extras h3 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box a,
+.box-extras a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+a.dif {
+    font-size: 16px;
+}
