@@ -363,8 +363,11 @@ span.principal {
 
 footer {
     background-color: #111111;
-    padding: 30px 120px;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 10px;
 }
 
 .container-footer {
@@ -405,7 +408,7 @@ footer {
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
 }
 
 .box a,
@@ -417,4 +420,45 @@ footer {
 
 a.dif {
     font-size: 16px;
+}
+
+ul.alt {
+    gap: 18px;
+}
+
+.redes-sociais img {
+    width: 22px;
+    margin: 6px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #6e6e6e;
+    padding: 30px 0 30px 0;
+    max-width: 1300px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.footer-bottom p {
+  max-width: 670px;
+  text-align: right;
+  color: #cbcbcb;
+}
+
+.app img {
+    width: 120px;
 }
